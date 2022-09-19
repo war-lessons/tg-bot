@@ -1,0 +1,31 @@
+[package]
+name = "war-lessons-bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+displaydoc = "0.2"
+dotenv = "0.15"
+envy = "0.4"
+hex = "0.4"
+humantime = "2.1"
+humantime-serde = "1.1"
+log = "0.4"
+once_cell = "1"
+pretty_env_logger = "0.4"
+rand = "0.8"
+serde = { version = "1", features = ["derive"] }
+sha2 = "0.10"
+sqlx = { version = "0.6", features = [
+  "runtime-tokio-native-tls",
+  "postgres",
+  "time",
+] }
+strum = "0.24"
+strum_macros = "0.24"
+systemd-journal-logger = "0.5"
+teloxide = { version = "0.10", features = ["auto-send", "macros"] }
+thiserror = "1"
+time = "0.3"
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+toml = "0.5"

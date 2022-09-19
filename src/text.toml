@@ -1,0 +1,80 @@
+[add_lesson]
+en = "Add lesson"
+ru = "Добавить урок"
+
+[add_lesson_message]
+en = "To add a lesson just send it to the chat"
+ru = "Чтобы добавить урок просто отравьте его в чат"
+
+[lesson_saved]
+en = "✅ Thank you for the contribution! Your lesson in saved, feel free to add more."
+ru = "✅ Спасибо за участие! Ваш урок сохранен, возвращайтесь если вспомните что-то ещё."
+
+[text_only]
+en = "❌ Text only please"
+ru = "❌ Только текст пожалуйста"
+
+[unknown_command]
+en = "❌ Unknown command"
+ru = "❌ Неизвестная команда"
+
+[flood]
+en = "❌ Too many messages, please wait for {} seconds"
+ru = "❌ Слишком частые сообщения, пожалуйста подождите {} секунд"
+
+[no_more_lessons]
+en = "No more lessons"
+ru = "Больше нет уроков"
+
+[lesson_not_found]
+en = "❌ Lesson not found"
+ru = "❌ Урок не найден"
+
+[internal_error]
+en = "❌ Internal error, try a bit later"
+ru = "❌ Сбой системы, попробуйте немного позже"
+
+[help]
+en = "Help"
+ru = "Помощь"
+
+[read_best]
+en = "Read best"
+ru = "Читать лучшие"
+
+[read_approved]
+en = "Read approved"
+ru = "Читать проверенные"
+
+[read_all]
+en = "Read all"
+ru = "Читать все"
+
+[next_lesson]
+en = "Next lesson"
+ru = "Следующий урок"
+
+[help_message]
+en = """
+It's a place for those surprised and stunned by the <b>war</b>. For those who already went through the emotional phase and now is looking for ways to <b>stop</b> this madness.
+
+We're going to <b>develop a guide</b>, for anyone to find possibilities to influence the situation (depending on their background, money, location etc) and assess their efficiency and risks. Please send us everything you think could help us in this endeavour.
+
+<b>Privacy</b> is one of the main reasons for this bot creation. We don't store users telegram IDs, so even if the database is stolen, it's impossible to connect lessons to their authors. The bots code is open for reviews: https://github.com/war-lessons/tg-bot
+
+Contact: @patch35 | news: @war_lessons_news
+
+You can <b>add a new lesson</b> or <b>read</b> the database
+"""
+ru = """
+Это место для тех, кого <b>война</b> застала врасплох и ошеломила. Для тех, кто уже прошёл через эмоциональную фазу и ищет путь <b>остановить</b> это безумие.
+
+Мы хотим <b>разработать инструкцию</b>, где любой человек мог бы найти возможные в его положении (профессии, достатке, местонахождении, ...) способы воздействия на ситуацию, оценить их эффективность и риски. Пожалуйста, присылайте нам всё, что считаете может быть полезно в этом начинании.
+
+<b>Анонимность</b> сбора информации - одна из основных целей создания этого бота. Мы не храним telegram ID пользователей, таким образом, даже при утечке базы данных, определить авторство уроков невозможно. Код бота открыт для проверки: https://github.com/war-lessons/tg-bot
+
+Контакт: @patch35 | новости: @war_lessons_news
+
+
+Вы можете <b>добавить урок</b> или <b>читать</b> базу уроков
+"""
