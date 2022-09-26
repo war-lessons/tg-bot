@@ -4,5 +4,10 @@
 
 ## System-level dependencies
 ```bash
-sudo apt install librust-openssl-dev
+sudo apt install postgresql librust-openssl-dev
+```
+
+## Dev dependencies
+```bash
+cargo install sqlx-cli
 ```
