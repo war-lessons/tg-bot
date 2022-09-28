@@ -67,9 +67,7 @@ async fn message_handler(
 }
 
 async fn callback_handler(q: CallbackQuery, bot: AutoSend<Bot>, pool: PgPool) -> ReplyResult {
-    if let (Some(cmd), Some(message)) = (q.data, q.message) {
-        let repl = Replier::from_message(bot, &message);
-
+    if let (Some(cmd), Some(repl)) = (&q.data, Replier::from_callback_query(bot, &q)) {
         if let Some(opts) = SetLessonStatus::from_command(&cmd) {
             if repl.is_moderator() {
                 opts.reply(&pool, &repl).await?;

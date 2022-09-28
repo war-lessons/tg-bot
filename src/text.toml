@@ -1,66 +1,80 @@
 [add_lesson]
 en = "Add lesson"
 ru = "Добавить урок"
+ua = "Додати урок"
 
 [add_lesson_message]
 en = "To add a lesson just send it to the chat"
-ru = "Чтобы добавить урок просто отравьте его в чат"
+ru = "Чтобы добавить урок просто отправьте его в чат"
+ua = "Щоб додати урок просто відправте його в чат"
 
 [lesson_saved]
-en = "✅ Thank you for the contribution! Your lesson in saved, feel free to add more."
+en = "✅ Thank you for the contribution! Your lesson is saved, feel free to add more."
 ru = "✅ Спасибо за участие! Ваш урок сохранен, возвращайтесь если вспомните что-то ещё."
+ua = "✅ Дякуємо за співпрацю. Ваш урок збережено, повертайтеся якщо згадаєте іще щось."
 
 [text_only]
 en = "❌ Text only please"
 ru = "❌ Только текст пожалуйста"
+ua = "❌ Тільки текст будь ласка"
 
 [unknown_command]
 en = "❌ Unknown command"
 ru = "❌ Неизвестная команда"
+ua = "❌ Невідома команда"
 
 [flood]
 en = "❌ Too many messages, please wait for {} seconds"
 ru = "❌ Слишком частые сообщения, пожалуйста подождите {} секунд"
+ua = "❌ Занадто багато повідомлень, будь ласка зачекайте  {} секунд"
 
 [no_more_lessons]
 en = "No more lessons"
 ru = "Больше нет уроков"
+ua = "Уроків більше немає"
 
 [lesson_not_found]
 en = "❌ Lesson not found"
 ru = "❌ Урок не найден"
+ua = "❌ Урок не знайдено"
 
 [internal_error]
 en = "❌ Internal error, try a bit later"
 ru = "❌ Сбой системы, попробуйте немного позже"
+ua = "❌ Збій системи, спробуйте трішки пізніше"
 
 [help]
 en = "Help"
 ru = "Помощь"
+ua = "Допомога"
 
 [read_best]
 en = "Read best"
 ru = "Читать лучшие"
+ua = "Читати найкращі"
 
 [read_approved]
 en = "Read approved"
 ru = "Читать проверенные"
+ua = "Читати перевірені"
 
 [read_all]
 en = "Read all"
 ru = "Читать все"
+ua = "Читати всі"
 
 [next_lesson]
 en = "Next lesson"
 ru = "Следующий урок"
+ua = "Наступний урок"
 
 [help_message]
 en = """
-It's a place for those surprised and stunned by the <b>war</b>. For those who already went through the emotional phase and now is looking for ways to <b>stop</b> this madness.
+It's a place for those surprised and stunned by the <b>war</b>. For those who already went through the emotional phase and now are looking for ways to <b>stop</b> this madness.
 
-We're going to <b>develop a guide</b>, for anyone to find possibilities to influence the situation (depending on their background, money, location etc) and assess their efficiency and risks. Please send us everything you think could help us in this endeavour.
+We're going to <b>develop a guide</b>, for anyone to find possibilities to influence the situation (depending on their background, money, location etc) and assess their efficiency and risks. Please send us everything you think could help us in this endeavor.
 
-<b>Privacy</b> is one of the main reasons for this bot creation. We don't store users telegram IDs, so even if the database is stolen, it's impossible to connect lessons to their authors. The bots code is open for reviews: https://github.com/war-lessons/tg-bot
+<b>Privacy</b> is one of the main reasons for this bot creation. We don't store user telegram IDs, so even if the database is stolen, it's impossible to connect lessons to their authors. The bots code is open for reviews: https://github.com/war-lessons/tg-bot
 
 Contact: @patch35 | news: @war_lessons_news
 
@@ -77,4 +91,16 @@ ru = """
 
 
 Вы можете <b>добавить урок</b> или <b>читать</b> базу уроков
+"""
+ua = """
+Це місце для тих, кого <b>війна</b> застала зненацька і приголомшила. Для тих, хто вже пройшов через емоційну фазу та шукає шлях <b>зупинити</b> це безумство.
+
+Ми хочемо <b>розробити інструкцію</b>, де будь-яка людина могла б знайти можливі в її становищі (професії, достатку, місцезнаходженні, ...) способи впливу на ситуацію, оцінити їх ефективність та ризики. Будь ласка, надсилайте нам все, що вважаєте, може бути корисно в цьому починанні.
+
+<b>Анонімність</b> збору інформації - одна з основних цілей створення цього робота. Ми не зберігаємо telegram ID користувачів, таким чином, навіть при витоку бази даних, визначити авторство уроків неможливо. Код бота відкритий для перевірки: https://github.com/war-lessons/tg-bot
+
+Контакти: @patch35 | новини: @war_lessons_news
+
+
+Ви можете <b>додати урок</b> або <b>читати</b> базу уроків
 """

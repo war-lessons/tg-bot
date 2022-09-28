@@ -3,7 +3,7 @@ use teloxide::{
     adaptors::AutoSend,
     payloads::SendMessageSetters,
     requests::{Requester, ResponseResult},
-    types::{ChatId, Message, ParseMode},
+    types::{CallbackQuery, ChatId, Message, ParseMode},
     Bot,
 };
 
@@ -25,6 +25,16 @@ impl Replier {
             message_id: message.id,
             chat_id: message.chat.id,
             lang: Lang::from(message),
+        }
+    }
+
+    pub fn from_callback_query(bot: AutoSend<Bot>, q: &CallbackQuery) -> Option<Self> {
+        if let Some(message) = &q.message {
+            let mut repl = Self::from_message(bot, &message);
+            repl.lang = Lang::from(&q.from);
+            Some(repl)
+        } else {
+            None
         }
     }
 
