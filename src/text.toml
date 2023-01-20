@@ -76,7 +76,7 @@ We're going to <b>develop a guide</b>, for anyone to find possibilities to influ
 
 <b>Privacy</b> is one of the main reasons for this bot creation. We don't store user telegram IDs, so even if the database is stolen, it's impossible to connect lessons to their authors. The bots code is open for reviews: https://github.com/war-lessons/tg-bot
 
-Contact: @patch35 | news: @war_lessons_news
+Contact: @stillarriving | news: @war_lessons_news
 
 You can <b>add a new lesson</b> or <b>read</b> the database
 """
@@ -87,7 +87,7 @@ ru = """
 
 <b>Анонимность</b> сбора информации - одна из основных целей создания этого бота. Мы не храним telegram ID пользователей, таким образом, даже при утечке базы данных, определить авторство уроков невозможно. Код бота открыт для проверки: https://github.com/war-lessons/tg-bot
 
-Контакт: @patch35 | новости: @war_lessons_news
+Контакт: @stillarriving | новости: @war_lessons_news
 
 
 Вы можете <b>добавить урок</b> или <b>читать</b> базу уроков
@@ -99,7 +99,7 @@ ua = """
 
 <b>Анонімність</b> збору інформації - одна з основних цілей створення цього робота. Ми не зберігаємо telegram ID користувачів, таким чином, навіть при витоку бази даних, визначити авторство уроків неможливо. Код бота відкритий для перевірки: https://github.com/war-lessons/tg-bot
 
-Контакти: @patch35 | новини: @war_lessons_news
+Контакти: @stillarriving | новини: @war_lessons_news
 
 
 Ви можете <b>додати урок</b> або <b>читати</b> базу уроків
